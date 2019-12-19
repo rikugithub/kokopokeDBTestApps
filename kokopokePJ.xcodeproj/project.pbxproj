@@ -14,6 +14,8 @@
 		24741E6123A31E5D00B41FE1 /* VisiteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24741E6023A31E5D00B41FE1 /* VisiteDetailsViewController.swift */; };
 		24741E6323A31EEE00B41FE1 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24741E6223A31EEE00B41FE1 /* SettingViewController.swift */; };
 		24741E6523A3316B00B41FE1 /* WantToGoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24741E6423A3316A00B41FE1 /* WantToGoViewController.swift */; };
+		3261E7DF23AAFB8400DDD3D1 /* GroupData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261E7DE23AAFB8400DDD3D1 /* GroupData.swift */; };
+		3261E7E123AAFBEE00DDD3D1 /* LocationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3261E7E023AAFBEE00DDD3D1 /* LocationInfo.swift */; };
 		32D74D26239DE4B300CA2BBE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32D74D25239DE4B300CA2BBE /* GoogleService-Info.plist */; };
 		4412846A23974CAC0025E051 /* whiteLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4412846923974CAC0025E051 /* whiteLogo.png */; };
 		4412846C23977CBC0025E051 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4412846B23977CBC0025E051 /* logo.png */; };
@@ -36,6 +38,8 @@
 		24741E6023A31E5D00B41FE1 /* VisiteDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisiteDetailsViewController.swift; sourceTree = "<group>"; };
 		24741E6223A31EEE00B41FE1 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		24741E6423A3316A00B41FE1 /* WantToGoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WantToGoViewController.swift; sourceTree = "<group>"; };
+		3261E7DE23AAFB8400DDD3D1 /* GroupData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupData.swift; sourceTree = "<group>"; };
+		3261E7E023AAFBEE00DDD3D1 /* LocationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfo.swift; sourceTree = "<group>"; };
 		32D74D25239DE4B300CA2BBE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3D174E553BD93697ABB53BDD /* Pods-kokopokePJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kokopokePJ.release.xcconfig"; path = "Target Support Files/Pods-kokopokePJ/Pods-kokopokePJ.release.xcconfig"; sourceTree = "<group>"; };
 		4412846923974CAC0025E051 /* whiteLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteLogo.png; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				24741E5E23A31E3B00B41FE1 /* ReviewViewController.swift */,
 				24741E6023A31E5D00B41FE1 /* VisiteDetailsViewController.swift */,
 				24741E6223A31EEE00B41FE1 /* SettingViewController.swift */,
+				3261E7DE23AAFB8400DDD3D1 /* GroupData.swift */,
+				3261E7E023AAFBEE00DDD3D1 /* LocationInfo.swift */,
 			);
 			path = kokopokePJ;
 			sourceTree = "<group>";
@@ -243,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44263F762394B750008D0BA3 /* kokopokePJ.xcdatamodeld in Sources */,
+				3261E7DF23AAFB8400DDD3D1 /* GroupData.swift in Sources */,
 				44263F702394B750008D0BA3 /* ViewController.swift in Sources */,
 				24741E5923A31D6000B41FE1 /* MenuViewController.swift in Sources */,
 				24741E5B23A31DC400B41FE1 /* TopViewController.swift in Sources */,
@@ -250,6 +257,7 @@
 				24741E6323A31EEE00B41FE1 /* SettingViewController.swift in Sources */,
 				44263F6C2394B750008D0BA3 /* AppDelegate.swift in Sources */,
 				44263F6E2394B750008D0BA3 /* SceneDelegate.swift in Sources */,
+				3261E7E123AAFBEE00DDD3D1 /* LocationInfo.swift in Sources */,
 				24741E5F23A31E3B00B41FE1 /* ReviewViewController.swift in Sources */,
 				24741E6123A31E5D00B41FE1 /* VisiteDetailsViewController.swift in Sources */,
 				24741E6523A3316B00B41FE1 /* WantToGoViewController.swift in Sources */,
@@ -398,7 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5PRVM435C9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = kokopokePJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -417,7 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5PRVM435C9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = kokopokePJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
